@@ -1,0 +1,187 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+header{
+    background-color: #008080;
+}
+header>nav>img{
+    height: 64px;
+}
+header>nav>ul{
+    list-style-type: none;
+    float: right;
+}
+header>nav>ul>li{
+    list-style-type: none;
+}
+header>nav>ul>li{
+    display: inline-block;
+    padding: 25px;
+}
+header>nav>ul>li:hover{
+    background-color: #fff;
+}
+
+header>nav>ul>li>a{
+    color: #fff;
+    text-decoration: none;
+
+}
+header>nav>ul>li:hover a{
+   
+    color: red;
+}
+.be{
+    /* background-color: bisque; */
+    /* background: linear-gradient(bisque,aqua); */
+    animation: project 5s infinite;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 10px;
+    /* margin-left: 300px; */
+    /* margin-top: 100px; */
+}
+@keyframes project {
+    from{
+        background: linear-gradient(bisque,aqua);
+    }
+    to{
+        background:linear-gradient(lightpink,lightsalmon);
+    }
+}
+.be>.item1{
+    height: 100px;
+    width: 120px;
+    background-color: chocolate;
+    left: 30px;
+    top: 30px;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 200px;
+    
+}
+.be>.item1:hover{
+    background-color:aqua;
+}
+.lk{
+    color: white;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+}
+.be>.item2{
+    height: 150px;
+    width: 150px;
+    background-color: magenta;
+    margin-top: 150px;
+    border-radius: 10px;
+
+}
+.be>.item2:hover{
+    background-color:black;
+}
+.be>.item3{
+    height: 200px;
+    width:150px ;
+    background-color: red;
+    border-radius: 10px;
+    margin-top: 100px;
+}
+.be>.item3:hover{
+    background-color:gold;
+}
+
+.be>.item4{
+    height: 250px;
+    width: 150px;
+    background-color: blue;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+.be>.item4:hover{
+    background-color:lightsalmon;
+}
+.prac>marquee{
+    text-align: center;
+    background-color:crimson;
+    /* margin-top: 20px; */
+    color:white;
+}
+.prac>h1:hover{
+    margin-left: 0px;
+    color: blue;
+
+}
+.prac>h3{
+    text-align: center;
+    color: black;
+}
+.prac>h3:hover{
+    color: gold;
+}
+.boxes{
+    margin-top: 10px;
+    background:url(../images/pexels-markus-spiske-2004161.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.boxes>.box1{   
+    height: 150px;
+    width: 600px;
+    background-color: chocolate;
+    margin-top: 10%;
+    margin-bottom: 20px;
+    border: 2px dashed black;
+    border-radius: 30px;
+}
+.boxes>.box1>p{
+    text-align: center;
+    margin-top: 40px;
+    color: white;
+
+}
+.boxes>.box2>p{
+    text-align: center;
+    margin-top: 15px;
+    color: white;
+}
+.boxes>.box3>p{
+    text-align: center;
+    margin-top: 20px;
+    color: aqua;
+}
+.boxes>.box4>p{
+    text-align: center;
+    margin-top: 30px;
+    color: white;
+}
+.boxes>.box2{
+    height: 200px;
+    width: 700px;
+    background-color:darkmagenta;
+    margin-bottom: 20px;
+    border: 2px dashed red;
+    border-radius: 30px;
+}
+.boxes>.box3{
+    height: 250px;
+    width: 800px;
+    background-color: red;
+    margin-bottom: 20px;
+    border: 2px dashed black;
+    border-radius: 30px;
+    /* background: url(../images/pexels-markus-spiske-2004161.jpg); */
+}
+.boxes>.box4{
+    height: 300px;
+    width: 900px;
+    background-color: blue;
+    margin-bottom: 20px;
+    border: 2px dashed rgb(194, 237, 21);
+    border-radius: 30px;
+}
